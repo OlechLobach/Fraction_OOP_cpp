@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{8550e42d-2bef-46ba-8f3a-6b9ad8eef4d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fraction">
+      <UniqueIdentifier>{a3a2bbd6-949d-48be-8026-ca1b33c97d4c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="fraction.cpp">
+      <Filter>fraction</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fraction.h">
+      <Filter>fraction</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
